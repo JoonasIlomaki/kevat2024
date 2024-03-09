@@ -1,0 +1,48 @@
+header{
+    background: orangered;
+    color: black;
+    padding: 1em;
+    text-align: center;
+    font-size: x-large;
+    font-weight: bolder;
+    clear: left;
+    border-style: solid;
+}
+nav {
+    background-color: lightcoral;
+    padding: 1em;
+    border-style: none;
+}
+
+.container {
+    width: 100%;
+}
+
+aside {
+    float: right;
+    width: 30%;
+ 
+}
+
+section, article {
+    float: left;
+    width: 70%;
+}
+
+body {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    }
+
+footer {
+    clear: both;
+    background: orange;
+    color: black;
+    padding: 1em;
+    text-align: center;
+    font-size: x-large;
+    font-weight: bolder;
+    clear: left;
+    border-style: solid;
+}

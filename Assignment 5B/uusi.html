@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 5b</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            display: flex; /* Määritä body flex-containeriksi */
+            flex-direction: column; /* Aseta flex-direction sarakkeeksi */
+            align-items: center; /* Keskistä sisältö pystysuunnassa */
+        }
+
+        header, nav, aside, section, article, footer {
+            width: 80%; /* Määritä kaikkien elementtien leveys 80% */
+            margin: 10px; /* Lisää hieman marginaalia joka puolelle */
+        }
+
+        nav {
+            display: flex; /* Aseta nav flex-containeriksi */
+            justify-content: space-between; /* Aseta linkit jättämään tilaa keskelle */
+        }
+
+        aside, section, article {
+            flex: 1; /* Anna kaikille muille elementeille yhtä suuri osuus tilasta */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Assignment 5B</h1>
+    </header>
+
+    <nav>
+        <div>
+            <a href="index.html">Alku</a>
+        </div>
+        <div>
+            <a href="second.html">Loppu</a>
+        </div>
+    </nav>
+
+    <aside>
+        <p> 
+            ipsum dolor sit amet 
+            consectetur adipisicing elit. Totam 
+            necessitatibus fugiat exercitationem 
+            expedita perferendis veniam recusandae
+            earum, suscipit nulla assumenda 
+            pariatur corrupti nostrum voluptatum
+            molestias fuga esse aut ratione 
+            nesciunt. Lorem, ipsum dolor sit amet
+            consectetur adipisicing elit. 
+            Ratione quod, quasi omnis deserunt
+            saepe dolor, aliquid aperiam eveniet
+            Lorem ipsum, dolor sit amet consectetur 
+            adipisicing elit. Corporis sint quasi 
+            excepturi. Architecto beatae ab 
+            officiis obcaecati voluptates est.
+        </p>
+    </aside>
+
+    <section>
+        <img src="moisionranta.JPG" alt="Ranta"
+        width="450px" height="250px">
+    </section>
+    <article>
+        <p>
+            Lorem ipsum dolor sit amet
+            consectetur adipisicing elit.
+            Voluptatum, ipsa. Suscipit corrupti
+            sint magni veritatis quod, quos aut,
+            ea quis beatae architecto nihil
+            maxime enim sunt. Ipsa 
+            consequuntur culpa modi! Lorem ipsum 
+            dolor sit amet consectetur adipisicing 
+            elit. Totam, nihil. Nesciunt unde est 
+            architecto optio excepturi illum 
+            exercitationem harum sequi, quam 
+            animi laudantium minus vitae quaerat 
+            doloribus, suscipit explicabo minima.
+        </p>      
+    </article>
+    
+    <footer></footer>
+</body>
+</html>
